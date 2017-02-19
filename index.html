@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Autism Soccer email</title>
+    <style type="text/css">
+        body {margin: 0; padding: 0; min-width: 100%!important;}
+        .content {width: 100%; max-width: 600px;}
+    </style>
+    <style type="text/css">
+      @media only screen and (min-device-width: 601px) {
+      .content {width: 600px !important;}
+      }
+    </style>
+    <style media="screen">
+      td{
+        font-size: 1.25rem;
+        font-family: arial;
+        color: #303030;
+      }
+
+      .header{
+        font-size: 3em;
+      }
+
+      /*header box that contains the company's logo and goal*/
+
+      #headerContainer{
+        margin: 0 auto;
+        background-color: #f7f1d4;
+        width: 100%;
+        border-radius: .5em;
+      }
+      #firstblock{
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: #f7f1d4;
+      }
+      #firstblock td{
+        text-align: center;
+        margin-top: 24px;
+        border-top: 25px;
+      }
+      #outerheader{
+        margin: 0 auto;
+        background-color: #f7f1d4;
+        width: 100%;
+        border-radius: .5em;
+      }
+      #outerheader td{
+        text-align: center;
+      }
+      table{
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .pixsection1 td{
+        width: 50%;
+      }
+      img{
+        width: 100%;
+        /*border-radius: .2em;*/
+      }
+      #footer{
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 3rem;
+        background-color: #f7f1d4;
+        margin-bottom: 1rem;
+        border-radius: .5rem;
+      }
+      #footer td{
+        padding: 2rem 3rem;
+        text-align: center;
+      }
+      .paddingTd{
+        padding: .5rem;
+        border-radius: 25rem;
+        /*color: #0B83DF;*/
+        /*background-color: #f7f1d4;*/
+      }
+
+      .bigfont{
+        font-family: arial;
+        font-size: 3rem;
+      }
+      .myButton {
+      	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+      	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+      	box-shadow: 0px 0px 0px 2px #9fb4f2;
+      	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+      	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+      	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+      	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+      	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+      	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+      	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+      	background-color:#7892c2;
+      	-moz-border-radius:10px;
+      	-webkit-border-radius:10px;
+      	border-radius:10px;
+      	border:1px solid #4e6096;
+      	display:inline-block;
+      	cursor:pointer;
+      	color:#ffffff;
+      	font-family:Arial;
+      	font-size:19px;
+      	padding:12px 37px;
+      	text-decoration:none;
+      	text-shadow:0px 1px 0px #283966;
+      }
+      .myButton:hover {
+      	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+      	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+      	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+      	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+      	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+      	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+      	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+      	background-color:#476e9e;
+      }
+      .myButton:active {
+      	position:relative;
+      	top:1px;
+      }
+      .paddingTd strong{
+        color: #225CAA;
+        font-weight: bold;
+        font-size: 2em;
+
+      }
+      .paddingTd h3{
+        color: #225CAA;
+      }
+      .bigfont strong{
+        color: #225CAA;
+        font-weight: bold;
+        font-size: .8em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- the "headerContainer" is the top part of the html email: basically the entire header, this is what
+        brings the entire header together and covers all the nasty gaps that the
+       border-radius css attribute leaves behind. this means no white spaces and
+       peices of the background showing.
+   -->
+
+   <!-- and always remember: table, tr, td and the content goes inside of individual tds.
+   or else your email template wont show -->
+<table id="headerContainer">
+  <tr>
+    <td>
+      <table id="outerheader">
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td class="header">
+                  <a href="https://www.autismsoccer.org/#home_section"><img src="logo-AS-WS.png" alt="logo" /></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="paddingTd">
+                  <strong>Mission</strong>
+                  <h3>Changing children’s lives through Soccer</h3>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <table id="firstblock">
+    <tr>
+      <td class="paddingTd">
+        <img src="Trifold-mian-pict.png" alt="main picture" />
+      </td>
+    </tr>
+    <tr>
+      <td class="paddingTd bigfont">
+          <strong>Our Goal is</strong>
+      </td>
+    </tr>
+    <tr>
+       <td class="paddingTd">
+          To teach children soccer skills in a supportive environment, develop a life-long love of exercise, and to have FUN! Through Autism Soccer (AS), children learn that with training, confidence and love anything is possible.
+       </td>
+    </tr>
+    </table>
+    </td>
+  </tr>
+
+</table>
+
+<table class="pixsection1">
+  <tr>
+    <td class="paddingTd">
+      Our program not only teaches fundamental soccer skills, but also fosters
+      self-confidence, team work, and sportsmanship. Enter our <a href="https://www.autismsoccer.org/#home_section">website</a> and learn more about our foundation.</td>
+    <td>
+      <img src="as3.jpg"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="as2.jpg"/>
+    </td>
+    <td class="paddingTd">
+      We celebrated our fourth year anniversary! The Autism soccer family is
+      supremely thankful to everyone who has helped us along the way. It is because
+      of you that we are able to touch the lives of many children.
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td class="paddingTd">
+      We ask that you please consider committing a monthly donation to Autism Soccer so that we can continue to bring joy to children and youngsters like Anthony Oliveira. Any amount helps, even $10 a month would go a long way to helping people with disabilities find the joy of sports.
+    </td>
+  </tr>
+</table>
+<table id="footer" bgcolor="#225CAA">
+    <a href="#"></a>
+  <tr>
+    <td class="bigfont">
+      <strong>Please Support This Great Cause</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a class="myButton" href="https://www.autismsoccer.org/pafaginasbafase/donate-now/">Donate Now</a>
+    </td>
+  </tr>
+</table>
+  </body>
+</html>
